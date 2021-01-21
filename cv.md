@@ -1,6 +1,7 @@
-1.## Anton Parfionov
+1. ## Anton Parfionov
 
-2.### Contact information:
+
+2. ### Contact information:
     - phone number:+375259278658;
     - [vk](https://vk.com/id53205447);
     - [instagram](https://www.instagram.com/sos_pylesos_company/).
