@@ -1,0 +1,29 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+    background-color: whitesmoke;
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+p {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  .main {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: azure;
+    border: solid 2px blue;
+    margin: auto;
+    font-size: 22px;;
+  }
+
+  .sec {margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif}
+
