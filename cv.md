@@ -3,7 +3,7 @@
 ![Hey!](my_photo.jpg)
 
 2. ### Contact information:
-    - phone number:+375259278658;
+    - phone number:+375256198472;
     - [vk](https://vk.com/id53205447);
     - [instagram](https://www.instagram.com/sos_pylesos_company/).
 
