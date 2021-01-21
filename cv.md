@@ -1,5 +1,6 @@
 1. ## Anton Parfionov
 
+![Hey!](my_photo.jpg)
 
 2. ### Contact information:
     - phone number:+375259278658;
