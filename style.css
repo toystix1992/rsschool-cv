@@ -1,29 +1,88 @@
-body {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
-    background-color: whitesmoke;
-    background-image: url("bg.png");
-    background-repeat: no-repeat;
-    background-position: top center;
-  }
-p {
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+html {
+  box-sizing: border-box;
+  font-size: 16px;
 }
-  .main {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    background-color: azure;
-    border: solid 2px blue;
-    margin: auto;
-    font-size: 22px;;
-  }
 
-  .sec {margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-family: "Montserrat", "Helvetica", "Arial", sans-serif}
+.header{
+  width: 100%;
+}
 
+.header__wrapper {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  padding:0px 15px 0px 15px;
+}
+
+.social {
+  display: flex;
+}
+
+.social-container {
+  margin-right: 9px;
+}
+.social-img {
+  width: 17px;
+}
+
+.header__container-menu {
+
+}
+
+
+.header__menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 10pt;
+}
+
+.header__submenu {
+
+}
+
+.header__menu .header__submenu {
+  position: absolute;
+  display: none;
+  list-style: none;
+  padding: 0px;
+}
+
+  .header__menu-item a {
+  display: block;
+  padding: 5px;
+  margin-left: 5px;
+  text-decoration: none;
+  color: rgba(14, 13, 13, 0.637);
+  background-color: rgba(0, 0, 0, 0.014);
+  border-radius: 4px;
+  font-family: 'Tinos', serif;
+  font-weight: 600;
+  font-size: 11px;
+}
+.header__submenu-item a {
+  display: block;
+  width: 107px;
+  padding: 5px;
+  margin-bottom: 1px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.486);
+  background-color: rgba(0, 0, 0, 0.11);
+  border-radius: 2px;
+  font-family: 'Tinos', serif;
+  font-weight: 600;
+  font-size: 11px;
+}
+
+  li a:hover {
+  color: #ffe;
+  background-color: #44232388;}
+
+  li:hover .header__submenu {
+  display: flex;
+  flex-direction: column;
+}
