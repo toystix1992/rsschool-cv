@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  min-height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.header{
+  width: 100%;
+}
+
+.header__wrapper {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  padding:0px 15px 0px 15px;
+  margin-bottom: 30px;
+}
+
+.social {
+  display: flex;
+}
+
+.social-container {
+  margin-right: 9px;
+}
+.social-img {
+  width: 23px;
+}
+
+.header-contacts {
+  font-family: 'Tinos', serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.contacts-img {
+  width: 35px;
+  margin-right: 9px;
+}
+
+
+.header__menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.header__menu .header__submenu {
+  position: absolute;
+  display: none;
+  list-style: none;
+  padding: 0px;
+}
+
+  .header__menu-item a {
+  display: block;
+  padding: 5px;
+  margin-left: 5px;
+  text-decoration: none;
+  color: rgba(14, 13, 13, 0.637);
+  background-color: rgba(0, 0, 0, 0.014);
+  border-radius: 4px;
+  font-family: 'Tinos', serif;
+  font-weight: 600;
+  font-size: 19px;
+}
+.header__submenu-item a {
+  display: block;
+  width: 107px;
+  padding: 5px;
+  margin-bottom: 1px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.486);
+  background-color: rgba(0, 0, 0, 0.11);
+  border-radius: 2px;
+  font-family: 'Tinos', serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+  li a:hover {
+  color: #ffe;
+  background-color: #44232388;}
+
+  li:hover .header__submenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wrapper1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-me {
+  width: 530px;
+}
+
+.about-me p {
+  font-size: 20px;
+}
+
+.my-photo {
+  overflow: hidden;
+  background-color: aqua;
+  height: 320px;
+  width: 285px;
+}
+
+.portret {
+  display: block;
+  width: 100%;
+}
+
+.wrapper2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.skils {
+  width: 530px;
+}
+
+.skils p {
+  font-size: 20px;
+}
+
+.skils ul {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.my-photo {
+  overflow: hidden;
+  background-color: aqua;
+  height: 350px;
+  width: 350px;
+}
+
+.skil-logo {
+  width: 70px;
+}
+
+.examles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.example-text {
+  font-size: 20px;
+}
+
+.github {
+  width: 300px;
+}
+
+.github:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.youtube-wrapper {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  overflow: hidden;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+
+.youtube-wrapper a:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.youtube-wrapper img {
+  width: 300px;
+}
