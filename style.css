@@ -1,6 +1,20 @@
-html {
+* {
   box-sizing: border-box;
-  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  min-height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
 
 .header{
@@ -137,6 +151,13 @@ html {
   font-size: 20px;
 }
 
+.skils ul {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
 .my-photo {
   overflow: hidden;
   background-color: aqua;
@@ -163,15 +184,35 @@ html {
   width: 300px;
 }
 
+.github:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
 .footer {
   display: flex;
+  flex-direction: column;
   max-width: 1200px;
   margin: 0 auto;
   align-items: center;
   justify-content: center;
-}
-
-.footer p {
   font-size: 20px;
 }
 
+.youtube-wrapper {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  overflow: hidden;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+
+.youtube-wrapper a:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.youtube-wrapper img {
+  width: 300px;
+}
